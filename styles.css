@@ -324,7 +324,7 @@ body {
 }
 
 .floating-card.card-1 {
-    top: 10%;
+    top: -5%;
     left: -5%;
     animation-delay: 0s;
 }
@@ -337,8 +337,8 @@ body {
 }
 
 .floating-card.card-3 {
-    bottom: 15%;
-    left: 20%;
+    bottom: -5%;
+    left: 10%;
     animation-delay: 1.4s;
     z-index: 1;
 }
