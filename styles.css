@@ -330,15 +330,17 @@ body {
 }
 
 .floating-card.card-2 {
-    top: 50%;
-    right: -8%;
+    top: 45%;
+    right: 10%;
     animation-delay: 0.7s;
+    z-index: 2;
 }
 
 .floating-card.card-3 {
-    bottom: 3%;
-    left: -15%;
+    bottom: 15%;
+    left: 20%;
     animation-delay: 1.4s;
+    z-index: 1;
 }
 
 .card-icon {
