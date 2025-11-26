@@ -345,7 +345,7 @@ body {
 
 .floating-card.card-3 {
     bottom: 3%;
-    left: -2%;
+    left: -15%;
     animation-delay: 1.4s;
 }
 
@@ -760,6 +760,10 @@ body {
    AUDIENCE GRID (WHO THIS IS FOR) - Custom Design
    ======================================== */
 
+#who-this-is-for.section-dark::before {
+    display: none;
+}
+
 #who-this-is-for {
     background: var(--color-dark-bg);
     padding: 5rem 2rem;
@@ -767,14 +771,7 @@ body {
 }
 
 #who-this-is-for::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: radial-gradient(circle at 50% 50%, rgba(212, 175, 55, 0.08) 0%, transparent 70%);
-    pointer-events: none;
+    display: none;
 }
 
 .audience-grid {
